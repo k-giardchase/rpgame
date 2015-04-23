@@ -12,4 +12,16 @@ var darkMenance = angular.module("darkMenance", ["ui.router"]);
       templateUrl: "partials/create_char.html",
       controller: "PlayersCtrl"
     });
+
+    $stateProvider.state("begin", {
+      url: "begin",
+      templateUrl: "partials/begin.html",
+      controller: "PlayersCtrl"
+    });
+
+    $stateProvider.state("dead", {
+      url: "dead",
+      templateUrl: "partials/you_are.html",
+      controller: "PlayersCtrl"
+    });
 });

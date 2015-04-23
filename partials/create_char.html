@@ -7,13 +7,30 @@
         <div class="form-group">
           <input type="text" ng-model="playerName" class="form-control" placeholder="Enter your name" required>
         </div>
+        <button type="submit" class="btn btn-danger">Begin</button>
       </form>
     </div>
     <div class="col-md-4"></div>
   </div>
 </div>
 
-<div ng-show="players.length" ng-repeat="item in players">
+<div ng-show="players.length" ng-repeat="item in players" class="text-center">
 
-  <h2>Welcome, {{ item.name }}</h2>
+  <h2>These are dark times, {{ item.name }}</h2>
+  <p>
+    Forget about electricity. Forget about indoor plumbing. Your family, friends, that neighbor you always hated but now miss. The Dark Menance has taken all of that away.
+  </p>
+  <p>
+    But hope still remains. You recieve word that there is a resistance movement in Vermont. At first, you take it as a rumor.
+    One of those stories that survivors make up to survive in this world. The whispers grow, though, and as winter approaches you decide to head East.
+  </p>
+
+  <button ng-hide="continue" ng-click="continue = true" type="submit" class="btn btn-danger">Continue</button>
+
+  <div ng-show="continue">
+    <h3>But you're not the only survivor. You will come across others on your journey.</h3>
+    <h3>Whether they'll help you or kill you...God only knows.</h3>
+    <a ui-sref="begin"><button type="submit" class="btn btn-danger">Head East</button></a>
+  </div>
+
 </div>
