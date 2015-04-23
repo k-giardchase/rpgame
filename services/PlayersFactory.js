@@ -5,5 +5,13 @@ darkMenace.factory('PlayersFactory', function PlayersFactory() {
     factory.players.push({ name: newName, health: 3, backpack: []});
   };
 
-  
+  factory.addHealth = function(player) {
+    player.health ++;
+  };
+
+  factory.deleteHealth = function(player) {
+    player.health --;
+  };
+
+  return factory;
 });

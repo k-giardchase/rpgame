@@ -1,4 +1,4 @@
-darkMenace.controller('PlayersCtrl', function PlayersCtrl($scope, playersFactory)
+darkMenace.controller('PlayersCtrl', function PlayersCtrl($scope, playersFactory) {
   $scope.players = PlayersFactory.players;
 
   $scope.addPlayer = function() {
@@ -7,4 +7,12 @@ darkMenace.controller('PlayersCtrl', function PlayersCtrl($scope, playersFactory
     $scope.playerName = null;
   };
 
-)
+  $scope.addHealth = function(item) {
+    PlayersFactory.addHealth(item);
+  };
+
+  $scope.deleteHealth = function(item) {
+    PlayersFactory.deleteHealth(item);
+  };
+
+});
