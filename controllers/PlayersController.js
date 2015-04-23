@@ -1,4 +1,4 @@
-darkMenace.controller('PlayersCtrl', function PlayersCtrl($scope, playersFactory) {
+darkMenance.controller('PlayersCtrl', function PlayersCtrl($scope, PlayersFactory) {
   $scope.players = PlayersFactory.players;
 
   $scope.addPlayer = function() {

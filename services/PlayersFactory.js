@@ -1,4 +1,4 @@
-darkMenace.factory('PlayersFactory', function PlayersFactory() {
+darkMenance.factory('PlayersFactory', function PlayersFactory() {
   var factory = {};
   factory.players =[];
   factory.addPlayer = function(newName) {
