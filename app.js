@@ -5,5 +5,4 @@ darkMenance.config(function($stateProvider) {
     url: "",
     templateUrl: "partials/start.html"
   });
-
 });
