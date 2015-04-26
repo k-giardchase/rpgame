@@ -12,11 +12,16 @@ A post-apocalyptic role-playing game made with Angular JS.
 ##Technologies Used
 <a href='https://angularjs.org/'>AngularJS</a> <br>
 <a href='http://angular-ui.github.io/'>AngularUI</a><br>
-Javascript
+Javascript <br>
+<a href='http://getbootstrap.com/'>Bootstrap </a>for styling <br>
 
 
 ##Use and Editing
-To use the app, clone the repository. In your command line, start a server by typing `python -m SimpleHTTPServer`. In your web browser, navigate to `localhost:8000` .<br><br>
+To use the app,
+1. Clone the repository `git clone https://github.com/k-giardchase/rpgame.git`
+2. Change directory into the folder `cd rpgame`
+3. Start a python server by typing `python -m SimpleHTTPServer` <br>
+4. In your web browser, navigate to `localhost:8000` <br>
 
 
 
