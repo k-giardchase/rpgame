@@ -7,7 +7,7 @@ April 23 2015
 
 
 ##Description
-A post-apocalyptic role-playing game made with Angular JS.
+A post-apocalyptic role-playing game made with Angular JS. This app is currently a work and progress and does not  move beyond the introduction to the game. 
 
 ##Technologies Used
 <a href='https://angularjs.org/'>AngularJS</a> <br>

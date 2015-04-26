@@ -1,3 +1,14 @@
+<!-- Plan for what each decision will result in:
+Answer
+minus health
+lose inv
+
+Hide
+lose inv
+
+Sneak
+get out -->
+
 <div>
   <h1>You are awoken by a loud noise and someone banging at your door</h1>
   <h3>It is the middle of the night and very few know about your little hideout</h3>
@@ -6,31 +17,24 @@
 
 
   <div ng-hide="decision">
-    <a ui-sref="dead"><button type="submit" class="btn btn-danger">Answer the door</button></a>
+    <a ui-sref="dead">
+      <button type="submit" class="btn btn-danger">Answer the door</button>
+    </a>
     <button ng-hide="hidden" ng-click="hidden = true; decision = true" type="submit" class="btn btn-danger">Hide</button>
     <button ng-hide="retreat" ng-click="retreat = true; decision = true" type="submit" class="btn btn-danger">Sneak Out</button>
   </div>
 
   <div ng-show="hidden">
     <p>
+      <!-- test to see if it works -->
       hey there
     </p>
   </div>
   <div ng-show="retreat">
     <p>
+      <!-- test to see if it works -->
       hello world
     </p>
   </div>
-<!-- Answer
-minus health
-lose inv
-
-Hide
-lose inv
-
-
-Sneak
-get out -->
-
  <a ui-sref="home">Home</a>
 </div>
