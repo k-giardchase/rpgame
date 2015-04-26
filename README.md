@@ -7,7 +7,7 @@ April 23 2015
 
 
 ##Description
-A post-apocalyptic role-playing game made with Angular JS. This app is currently a work in progress and does not  move beyond the introduction to the game. 
+A post-apocalyptic role-playing game made with Angular JS. This app is currently a work in progress and does not  move beyond the introduction to the game.
 
 ##Technologies Used
 <a href='https://angularjs.org/'>AngularJS</a> <br>
@@ -17,7 +17,7 @@ Javascript <br>
 
 
 ##Use and Editing
-To use the app,
+To use the app,<br>
 1. Clone the repository `git clone https://github.com/k-giardchase/rpgame.git`<br>
 2. Change directory into the folder `cd rpgame`<br>
 3. Start a python server by typing `python -m SimpleHTTPServer` <br>
